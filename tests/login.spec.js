@@ -11,12 +11,12 @@ describe("Login", ()=>{
    await driver.manage().window().maximize()
     //ingresar usuario y password
     await driver.findElement(By.id("emailLogin")).sendKeys("lemagauna@gmail.com")
-    await driver.sleep(1000)
+    await driver.sleep(2000)
     await driver.findElement(By.id('passwordLogin')).sendKeys('Loquesea2023')
+    await driver.sleep(2000)    
     //hacer click en el botón de ingresar
     await driver.findElement(By.className('btn--login')).click();
-   await driver.sleep(9000) 
-   
+    await driver.sleep(9000) 
    await driver.findElement(By.className('Btn--logout ms-1 ms-md-0')).click()
    await driver.sleep(5000);
    await driver.quit(); 
