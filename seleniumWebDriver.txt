@@ -1,0 +1,9 @@
+Selenium WebDriver es un framework de automatización web que le permite ejecutar sus pruebas contra diferentes navegadores
+,esta diseñado para proporcionar una interfaz de programación más.
+ se requiere una buena biblioteca de afirmaciones en nuestro caso usaremos Node.js y Mocha.
+
+ instalacion de paquetes
+
+ npm i selenium-WebDriver
+ npm i Mocha
+ npm i webdriver-manager
