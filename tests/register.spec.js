@@ -15,7 +15,7 @@ describe( "Register", () =>{
         await driver.sleep(2000)
         await driver.findElement(By.id("lastName")).sendKeys("secreto")
         await driver.sleep(2000)
-        await driver.findElement(By.id("emailRegister")).sendKeys("User4@mail.com")
+        await driver.findElement(By.id("emailRegister")).sendKeys("User26@mail.com")
         await driver.sleep(2000)
         await driver.findElement(By.id("passwordRegister")).sendKeys("Secreto2025")
         await driver.sleep(2000)
